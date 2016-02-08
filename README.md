@@ -11,7 +11,7 @@ import data from './data.json';
 document.body.innerHTML = Rogain.renderToString(tree, data, config);
 ```
 
-## renderToString(tree, props)
+## renderToString(tree, props, config)
 
 Renders a tree with a given set of properies.
 
@@ -22,6 +22,10 @@ Object in Rogain tree format.
 ___props___
 
 Object. 
+
+___config___
+
+[rogain-config](https://github.com/krambuhl/rogain-config) instance.
 
 ## Install 
 
