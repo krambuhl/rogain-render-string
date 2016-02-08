@@ -1,5 +1,6 @@
 {
   "emptyList": [],
+  "emptyObject": { },
   "articles": [{
     "title": "bread",
     "contents": "Lorem ipsum Incididunt cupidatat laborum.",

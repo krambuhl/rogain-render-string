@@ -341,7 +341,7 @@
             "data": [
               {
                 "type": "variable",
-                "path": "articles"
+                "path": "emptyObject"
               }
             ]
           }
@@ -353,7 +353,7 @@
             "children": [
               {
                 "type": "textnode",
-                "value": "No Articles"
+                "value": "Empty Object"
               }
             ]
           }
