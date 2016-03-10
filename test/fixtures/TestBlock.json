@@ -1,0 +1,40 @@
+{
+  "type": "tag",
+  "name": "div",
+  "attrs": [
+    {
+      "type": "attr",
+      "name": "class",
+      "data": "block"
+    },
+    {
+      "type": "attr",
+      "name": "data-hex",
+      "data": [
+        {
+          "type": "text",
+          "data": "#"
+        },
+        {
+          "path": "@attrs.data.hex",
+          "type": "variable"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "type": "text",
+      "data": [
+        {
+          "path": "@attrs.data.slug",
+          "type": "variable"
+        },
+        {
+          "path": "@index",
+          "type": "variable"
+        }
+      ]
+    }
+  ]
+} 

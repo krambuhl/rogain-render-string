@@ -1,0 +1,90 @@
+{
+  "type": "tag",
+  "name": "div",
+  "children": [
+    {
+      "type": "tag",
+      "name": "section",
+      "attrs": {
+        "class": "block",
+        "data-hex": "#f00"
+      },
+      "children": "red"
+    },
+    {
+      "type": "tag",
+      "name": "div",
+      "attrs": {
+        "class": "heavy",
+        "id": "colors"
+      },
+      "children": [
+        {
+          "type": "tag",
+          "name": "div",
+          "attrs": {
+            "class": "block",
+            "data-hex": "#00f"
+          },
+          "children": "blue"
+        },
+        {
+          "type": "tag",
+          "name": "a",
+          "attrs": {
+            "href": "/colors"
+          },
+          "children": "Read More"
+        }
+      ]
+    },
+    [
+      [
+        {
+          "type": "tag",
+          "name": "div",
+          "attrs": {
+            "class": "block",
+            "data-hex": "#f00"
+          },
+          "children": "red0"
+        },
+        {
+          "type": "tag",
+          "name": "a",
+          "attrs": {
+            "href": "/colors/red"
+          },
+          "children": "Read More"
+        }
+      ],
+      [
+        {
+          "type": "tag",
+          "name": "div",
+          "attrs": {
+            "class": "block",
+            "data-hex": "#00f"
+          },
+          "children": "blue1"
+        },
+        {
+          "type": "tag",
+          "name": "a",
+          "attrs": {
+            "href": "/colors/blue"
+          },
+          "children": "Read More"
+        }
+      ]
+    ],
+    {
+      "type": "tag",
+      "name": "script",
+      "attrs": {
+        "src": "/scripts/main.js"
+      },
+      "children": "function hello(str) { }"
+    }
+  ]
+}

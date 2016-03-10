@@ -1,4 +1,0 @@
-{
-  "Heading": {"type":"tag","tagName":"h3","attrs":[{"name":"class","value":"heading"}],"children":[{"type":"textnode","data":[{"type":"variable","path":"@children"}]}]},
-  "Template": {"type":"helper","name":"Each","attrs":[{"name":"data","data":[{"type":"variable","path":"list"}]}],"children":[{"type":"component","name":"Heading","children":[{"type":"textnode","data":[{"type":"variable","path":"@item"}]}]}]}
-}
