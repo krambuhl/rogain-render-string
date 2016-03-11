@@ -188,6 +188,22 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "tag",
+      "name": "img",
+      "attrs": [
+        {
+          "type": "attr",
+          "name": "src",
+          "data": [
+            {
+              "path": "scripts.main",
+              "type": "variable"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
