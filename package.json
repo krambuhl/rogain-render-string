@@ -1,6 +1,6 @@
 {
   "name": "rogain-render-string",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Render Rogain trees into html using string concatination.",
   "main": "dist/index.js",
   "scripts": {
