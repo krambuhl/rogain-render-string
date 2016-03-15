@@ -1,6 +1,6 @@
 {
   "name": "rogain-render-string",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Render Rogain trees into html using string concatination.",
   "main": "dist/index.js",
   "scripts": {
@@ -33,10 +33,10 @@
     "cheerio": "^0.20.0",
     "html": "0.0.10",
     "rogain-config": "^0.2.1",
-    "rogain-core-helpers": "^0.2.2",
+    "rogain-core-helpers": "^0.2.3",
     "tape": "^4.4.0"
   },
   "dependencies": {
-    "rogain-resolve-tree": "^0.1.0"
+    "rogain-resolve-tree": "^0.2.0"
   }
 }
