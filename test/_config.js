@@ -1,9 +1,8 @@
 const Config = require('rogain-config');
 
-var config = new Config();
+var config = new Config(require('rogain-core-bundle'));
 
-config.registerComponent(require('rogain-core-helpers'));
-config.registerComponent({
+config.components.register({
   Test: require('./fixtures/Test.json'),
   TestBlock: require('./fixtures/TestBlock.json'),
   TestComponent: require('./fixtures/TestComponent.json'),
