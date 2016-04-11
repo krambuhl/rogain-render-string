@@ -1,14 +1,17 @@
-var config = require('./_config');
-var test = require('tape');
-var renderToString = require('../dist');
-var cheerio = require('cheerio');
+const resolveTree = require('rogain-resolve-tree');
+const cheerio = require('cheerio');
+const test = require('tape');
+
+const renderToString = require('../dist');
+const config = require('./_config');
 
 const data = require('./fixtures/data.js');
 
 test('renderToString', function(t, d) {
-  var res = renderToString(config.components.get('Test'), data, config);
+  var res = resolveTree(config.components.get('Test'), data, config);
+  var html = renderToString(res);
 
-  var $ = cheerio.load(res);
+  var $ = cheerio.load(html);
   var $root = $.root().children();
 
   t.plan(34);

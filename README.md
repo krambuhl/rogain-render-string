@@ -8,10 +8,10 @@ Render a Rogain tree into html using string concatination.  Useful for server re
 import tree from './template.json';
 import data from './data.json';
 
-document.body.innerHTML = Rogain.renderToString(tree, data, config);
+document.body.innerHTML = renderToString(resolveTree(tree, data, options));
 ```
 
-## renderToString(tree, props, config)
+## renderToString(tree, props, options)
 
 Renders a tree with a given set of properies.
 
@@ -23,9 +23,9 @@ ___props___
 
 Object. 
 
-___config___
+___options___
 
-[rogain-config](https://github.com/krambuhl/rogain-config) instance.
+`options.components` optional `rogain-registry` instance. defines components used in resolution.
 
 ## Install 
 
